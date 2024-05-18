@@ -40,7 +40,7 @@ const (
 	mux.HandleFunc("/", s.handler) 
 	`
 	NOFILESHANDLERTEMPLATE = `func (s *Server) handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Welcome!") 
+		fmt.Fprintln(w, " <h1> Welcome!</h1> ") 
 }
 `
 )
