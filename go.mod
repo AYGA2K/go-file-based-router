@@ -1,4 +1,4 @@
-module go-file-based-router
+module github.com/AYGA2K/go-file-based-router
 
 go 1.22.3
 
